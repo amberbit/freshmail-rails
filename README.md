@@ -48,6 +48,7 @@ freshmail.ping
 freshmail.mail(...)
 freshmail.subscriber(...)
 freshmail.subscribers(...)
+freshmail.subscriber_history(...)
 freshmail.add_subscriber(...)
 freshmail.edit_subscriber(...)
 freshmail.batch_add_subscriber(...)

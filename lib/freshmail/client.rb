@@ -33,6 +33,10 @@ module Freshmail
       call_freshmail(:post, 'subscriber/getMultiple', sub_info)
     end
 
+    def subscriber_history(sub_info = {})
+      call_freshmail(:post, 'subscriber/getHistory', sub_info)
+    end
+
     def add_subscriber(sub_info = {})
       call_freshmail(:post, 'subscriber/add', sub_info)
     end
